@@ -1,18 +1,24 @@
-.title-bar {
-    display: flex;
-    border: 2px solid black;
-    border-radius: 10px;
+* {
+    box-sizing: border-box;
 }
 
-.title-bar .title {
-    margin-left: auto;
-    margin-right: auto;
+body {
+    background-color: rgb(210, 255, 248);
+    margin: 0px;
 }
 
-.footer {
+.container {
     display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 5px;
+}
+
+.container .footer {
     margin-top: 100vh;
-    border: 2px solid black;
-    border-radius: 10px;
-    justify-content: center;
+    outline: 1px solid red;
+}
+
+.container .header {
+    margin: 0px;
 }
