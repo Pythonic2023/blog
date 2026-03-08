@@ -2,34 +2,44 @@
     box-sizing: border-box;
 }
 
-.container div {
-    background-color: rgb(210, 255, 248);
+body {
+    background-color: rgb(0, 165, 198);
+    margin: 0px;
 }
 
-body {
-    background-color: white;
-    margin: 0px;
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     margin: 0px;
-    padding: 1px
+    padding: 5px
+}
+
+.style-container {
+    background-color: whitesmoke;
+    border: 2px solid transparent;
+    border-radius: 5px;
 }
 
 .container .footer {
     column-gap: normal;
-    outline: 1px solid red;
+    text-align: center;
 }
 
 .container .title-bar {
-    outline: 1px solid red;
     margin: 0px;
+    text-align: center;
 }
 
 .container .side-menu {
-    outline: 1px solid red;
     margin-top: 10px;
     margin-bottom: 10px;
     width: 10vw;
@@ -37,11 +47,12 @@ body {
 }
 
 .blog-content {
-    padding-left: 10px;
-    outline: 1px solid red;
+    margin: 10px 0px 10px 10px;
+    width: 100%;
+    text-align: start;
+    padding: 2% 10% 0% 10%;
 }
 
 .holder {
     display: flex;
-    outline: 1px solid red;
 }
